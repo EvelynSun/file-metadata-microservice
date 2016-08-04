@@ -1,0 +1,40 @@
+extend layout
+
+block content
+  
+  
+    h1=title
+    h2 --Free Code Camp
+    
+    h3 User Story
+        ul
+            li I can submit a FormData object that includes a file upload
+            li When I submit something, I will receive the file size in bytes within the JSON responses
+            
+    h3 Example
+        hr
+        .input-group
+            form#file-form(enctype="multipart/form-data")
+            label.input-group-btn
+                span.btn.btn-primary Browse&hellip;
+                input(type='file',style='display:none;' multiple, name='choose-file')
+                
+            span#name(type='text') no file choosen
+            label.input-group-btn
+                span.btn.btn-primary#submit(type='submit') Upload
+                input(type='submit' ,style='display:none;')
+            
+            
+            
+        
+            
+            
+            
+           
+                
+          
+          
+          
+    
+    
+

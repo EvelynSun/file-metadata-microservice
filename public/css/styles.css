@@ -1,0 +1,23 @@
+html,
+body {
+  height: 100%;
+  background-color: purple;
+}
+
+body {
+  color: #fff;
+  text-align: center;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.input-group{
+  width:500px;
+  margin: 0 auto;
+}
+
+#name{
+  background-color:white;
+  width:300px;
+  border-radius:5px;
+  color:black;
+}
